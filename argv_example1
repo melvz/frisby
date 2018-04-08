@@ -1,0 +1,14 @@
+
+
+
+## Run this with arguments in same line as file.py
+
+
+from sys import argv
+
+script1, b, c, d = argv
+
+print("script: ", script1)
+print("2nd input: ", b)
+print("3rd input: ", c)
+print("4th input: ", d)
