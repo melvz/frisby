@@ -1,0 +1,21 @@
+
+
+
+#Write a program that adds one to all
+#even numbers on this list
+
+#x_list = [11, 6, 5, 7, 10]
+
+
+
+
+x_list = [11, 6, 5, 7, 10]
+
+for i in range(5):
+	if x_list[i] == 6:
+		x_list[i] = x_list[i] + 1
+
+	elif x_list[i] == 10:
+		x_list[i] = x_list[i] + 1
+
+print x_list
