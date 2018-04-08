@@ -15,11 +15,11 @@ h1 = y - a
 h2 = y - b
 h3 = y - c
 
-
+# "XV" is the area variable
 xv = y * h1 * h2 * h3
 
 
-#this is the area variable
+#let's get the sqrt of the area variable
 ab = math.sqrt( xv )
 
 print ab
