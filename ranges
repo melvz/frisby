@@ -1,0 +1,20 @@
+x = 10
+y = 21
+z = 32
+
+for a in range(x):
+	print a
+
+#prints from 0 to x minus 1
+
+
+for b in range(x,y):
+	print b
+
+# prints from x to y minus 1
+
+
+
+for c in range(x,y,z);
+	print c
+# prints from x to y -1 with z as append
