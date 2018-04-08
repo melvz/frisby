@@ -1,8 +1,7 @@
 
 
 
-#Write a program that adds one to all
-#even numbers on this list
+#Write a program that adds one to all EVEN numbers on this list
 
 #x_list = [11, 6, 5, 7, 10]
 
