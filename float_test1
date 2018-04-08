@@ -1,0 +1,14 @@
+import math
+
+a = input("enter a: ")
+b = input("enter b: ")
+c = input("enter see: ")
+
+
+#we use float to literally foat or represent (a + b + c) as floating variable. 
+s = (float(a) + float(b) + float(c))  / 2
+
+area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+
+
+print area
