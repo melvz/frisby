@@ -1,0 +1,8 @@
+
+##  http://www.pythonforbeginners.com/basics/list-comprehensions-in-python
+
+
+
+x_list = [11, 6, 5, 7, 10]
+
+new_list = [x+1 for x in x_list]
