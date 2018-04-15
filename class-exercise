@@ -1,0 +1,40 @@
+
+
+## This class creates a new class of students.  The purpose of the class is to only TO HANDLE inputs of student data.  
+
+
+
+class Student():
+
+        def __init__(self, name, address, grade):
+                self.name = name
+                self.address = address
+                self.grade = grade
+
+
+## The actual input of student data is done when you declare variables a, b, and c.
+a = Student("Student A", "QC", 80)
+b = Student("Student B", "MAR", 99)
+c = Student("STudent See", "KLK", 90)
+
+
+## Here you declare a student list.
+
+student_list = [a, b, c]
+
+
+
+## Use a FOR loop to simply print the  students in student_list variable.
+for student in student_list:
+        print student.name
+
+
+## Now here, you use a FOR LOOP to get the average GRADE.
+average = 0
+
+for student in student_list:
+        average = average + student.grade
+
+print average
+
+
