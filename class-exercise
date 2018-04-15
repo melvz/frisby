@@ -6,6 +6,8 @@
 
 class Student():
 
+## remember to initialize 4 place holders below.
+
         def __init__(self, name, address, grade):
                 self.name = name
                 self.address = address
