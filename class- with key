@@ -1,0 +1,12 @@
+
+
+
+class Pogi():
+         def __init__(self, name,  address):
+                self.name = name
+                self.address = address
+
+
+person_a = Pogi("Person A", "A Address")
+
+print person_a.name
